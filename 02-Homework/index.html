@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Code Quiz</title>
+		<meta charset="UTF-8">
+		<link href="quiz.css" rel="stylesheet" type="text/css">
+        <script src = "quiz.js" type="text/javascript"></script>
+    </head>
+    
+	<body>
+		<div id="nav">
+			<div class="left">
+                <a onclick="getScore()" href="#"><h4 >View Highscore</h4></a>
+			</div>
+			<div class="right">
+				<h4>Time Remaining: <span id="timeRemaining">0</span></h4>
+			</div>
+        </div>
+        
+		<div id="quiz">
+            <div id="quizBody">      
+                <h1>   
+                    Som's JavaScript Code Quiz
+                </h1>
+                <h2>
+                    Your goal is to get as many questions right as quick as possible. When you are done you will have the
+                    option to either reset your score, or save it in and try to beat it.
+                </h2>
+
+                <h3>
+					Press The Begin Button to start you quiz!   
+                </h3>
+                <h4>
+                    GOOD LUCK!!!!!
+                </h4>
+                <button onclick="start()">Begin</button>
+            </div>
+        </div>
+	</body>
+</html>
